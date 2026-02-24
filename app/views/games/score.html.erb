@@ -1,0 +1,9 @@
+<h1>Result</h1>
+
+<p>Your word: <%= @word %></p>
+<p>Grid was: <%= @letters.join(" ") %></p>
+
+<p><%= @result[:message] %></p>
+<p>Score: <%= @result[:score] %></p>
+
+<p><%= link_to "Play again", new_path %></p>
